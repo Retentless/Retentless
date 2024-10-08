@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    background-color: black;
+    padding: 20px;
+}
+
+.img {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img2 {
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    flex: 1; /* позволяет элементу flex расширяться и заполнять доступное пространство */
+    padding: 20px;
+}
+
+.full-screen {
+    border-radius: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overflow-box {
+    width: 400px;
+    height: 200px;
+    background-color: #c0c0c0;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.margin-box {
+    background-color: #b0b0b0;
+    margin: 15px 0; /* Внешний отступ */
+    padding: 10px;
+}
